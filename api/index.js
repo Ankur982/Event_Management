@@ -3,6 +3,7 @@ const express = require('express');
 const dbConnect = require("./dbConnect");
 const userRoutes = require("./routes/user")
 const eventRoutes = require("./routes/event")
+
 const cors = require("cors");
 
 //dotenv
